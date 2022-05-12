@@ -8,33 +8,41 @@ li ,a ,button{
     font-size: 16px;
     text-decoration: none;
 }
-.span a{
+.span p{
     font-weight: bold;
     font-size: 20px;
     color: #3D1508;
-    margin-right: 300px;
+    margin-right: 100px;
+    /* background-color: #5183F9; */
+    width: 150px;
+    
 }
 
 .span2{
    color: #43A091;
-   margin-right: 8px;
+   /* margin-right: 8px; */
+
 }
 .span3{
    color: #43A091;
 }
 
 .log1{
-    margin-left: 60px;
+    
+
 } 
 header{
-    justify-content: space-between;
+    /* justify-content: space-between; */
     display: flex;
     align-items: center;
     padding: 30px 10%;
 }
 
 .links{
+    margin-bottom: -20px;
     list-style: none;
+    /* background-color: #3F1D0A; */
+    width: 400px;
 }
 .links li{
     display: inline-block;
@@ -67,7 +75,7 @@ header{
 }
 body{
     background-color: #F1EAEA;;
-    padding: 20px;
+    /* padding: 20px; */
 }
 .main{
     background-color: white;
@@ -124,10 +132,12 @@ body{
 }
 .btn{
     width: 15%;
+    border: none;
     border-radius: 30px;
     padding: 12px;
     color: #FFFFFF;
     background-color: #5184F9;
+    margin-top: 10px;
 }
 /* .buton p{
     color: #FFFFFF; */
@@ -177,13 +187,13 @@ text-align: center; */
 }
 h1{
     font-size: 35px;
-    margin-left: 90px;
+    /* margin-left: 90px; */
     color: #3F1D0A;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 p{
-    margin-left: 90px;
-    margin-top: 20px;
+    /* margin-left: 90px; */
+    /* margin-top: 20px; */
 }
 .Contact{
     margin-right: 10px;
@@ -289,30 +299,31 @@ margin-top: 90px;
 }
 .help h1{
     margin-top: 50px;
-    margin-left: -15%;
+    margin-left: -28%;
     font-size: 40px;
     font-family: sans-serif;
 }
 .agency{
     display: flex;
-    margin:100px;
-    width: 90%;
+    margin:90px 90px;
+    /* width: 90%; */
 }
 .design1{
     background-color:#F5F9FA;
-    /* padding: 5%; */
+    padding: 5%;
     /* height: 15%; */
     width: 50%;
     /* height: 240px; */
-    padding-top: 5%;
+    /* padding-top: 5%; */
 
 
 }
 .design2{
     background-color:#43A091;
-    padding-top: 5%;
+    /* padding-top: 5%; */
     /* height: 15%; */
     width: 50%;
+    padding: 5%;
 
 }
 .design2 h1{
@@ -325,23 +336,22 @@ margin-top: 90px;
 }
 .design3{
     background-color:#EAF6FE;
-    /* padding: 5%; */
-    padding-top: 5%;
+    padding: 5%;
+    /* padding-top: 5%; */
     /* height: 25%; */
     width: 50%;
 }
 .more{
-    margin-bottom
-    : 15%;
+    margin-top: 15%;
 
 }
 .provide{
     /* margin-top: 20%; */
-    margin-bottom: 10%;
-    padding-bottom: 15%;
+    /* margin-bottom: 10%;
+    padding-bottom: 15%; */
 }
  .design{
-     margin-top:10% ;
+     /* margin-top:10% ; */
 } 
 .projects{
     margin-left: 550px;
@@ -433,10 +443,7 @@ margin-top: 90px;
 color: rgb(0, 0, 0);
 padding-left: 5px;
  } */
- .btn{
-     /* background-color: blue; */
-     border: none;
- }
+
  .border{
      background-color: #E2E2E2;
      color: #E2E2E2;
@@ -506,7 +513,7 @@ padding-left: 5px;
      color: white;
      padding: 20px;
      border-radius: 50%;
-     margin-left: 20px;
+     /* margin-left: 20px; */
 
     }
     .fa-laptop-code{
@@ -514,7 +521,7 @@ padding-left: 5px;
      color: white;
      padding: 20px;
      border-radius: 50%;
-     margin-left: 20px;
+     /* margin-left: 20px; */
 
     }
     .fa-crown{
@@ -523,5 +530,16 @@ padding-left: 5px;
      padding: 20px;
      border-radius: 50%;
      margin-left: 20px;
+    }
+    .loggo{
+        margin-top: 1%;
+    }
+    .loggo2{
+        margin-left: 15%;
+        margin-top: -6%;    
+    }
+    .loggo3{
+        margin-left: 38%;
+        margin-top: -5%;
     }
  
